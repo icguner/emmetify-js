@@ -1,0 +1,42 @@
+{
+  "name": "emmetify-js",
+  "version": "0.1.0",
+  "description": "Reduce token usage and optimize LLM interactions by converting HTML to compact Emmet syntax",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/ --ext .js",
+    "format": "prettier --write 'src/**/*.js' 'tests/**/*.js'",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "emmet",
+    "html",
+    "parser",
+    "converter",
+    "llm",
+    "optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/emmetify-js"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
